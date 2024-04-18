@@ -1,0 +1,110 @@
+.presentacion {
+  width: 100%;
+
+  padding: 50px 0 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.presentacion__imagen {
+  width: 100%;
+}
+
+.presentacion__informacion {
+  width: 100%;
+  top: 60px;
+  text-align: center;
+}
+
+.presentacion__botones {
+  margin-top: 20px;
+}
+
+.presentacion__titulo {
+  font-size: 3rem;
+}
+
+.presentacion__parrafo {
+  font-weight: bold;
+  margin: 20px;
+}
+
+/* boton */
+
+.boton {
+  background-color: #ff4a32;
+  padding: 8px 30px;
+  margin: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.boton--redondo {
+  border-radius: 20px;
+}
+.texto-looking__parrafo {
+  font-size: 1rem;
+  margin: 15px auto 25px;
+  max-width: 600px;
+}
+
+
+/* separador */
+
+.separador {
+  margin: auto;
+  width: 65px;
+  border-bottom: 1px solid #cfcfcf;
+  box-shadow: 0px 0px 2px 1px #cfcfcf;
+}
+
+   /* marcas */
+   .marcas {
+    background-color: #000000;
+}
+
+/* texto-looking */
+.texto-looking {
+    text-align: center;
+    padding: 55px 0 40px;
+}
+
+.texto-looking__parrafo {
+    font-size: 1rem;
+    margin: 15px auto 25px;
+    max-width: 600px;
+}
+
+
+/* separador */
+
+.separador {
+    margin: auto;
+    width: 65px;
+    border-bottom: 1px solid #cfcfcf;
+    box-shadow: 0px 0px 2px 1px #cfcfcf;
+}
+
+.navegacion-mobile {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.navegacion-mobile__burger-menu img {
+    width: 30px;
+}
+
+.navegacion-mobile__logo img {
+    width: 230px;
+}
+
+.navegacion-mobile__opciones svg {
+    width: 30px;
+}
+
+.hide {
+    visibility: hidden;
+    position: absolute;
+}
